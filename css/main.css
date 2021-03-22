@@ -28,6 +28,7 @@ a:focus {
 a {
     -webkit-transition: 300ms;
     transition: 300ms;
+
 }
 
 h1,
@@ -2438,4 +2439,112 @@ textarea {
 
 .contact-info .social-networks ul li a:hover {
     color: #FE980F;
+}
+
+.main-left{
+    padding-top:20px
+}
+
+.maincontent-image {
+    display: inline-block;
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
+    float:left;
+}
+
+.brand {
+    display:inline;
+}
+
+a {
+    color:black;
+}
+
+h2{
+    color: black;
+}
+
+.name{
+    color:blue;
+}
+
+.vertical {
+    height:100%; /* you might need some positioning for this to work, see other questions about 100% height */
+    width:0;
+    border:1px solid black;
+}
+
+.vertical-row{
+    color: black;
+}
+
+.main-right-top{
+    padding-bottom:10px;
+    border-bottom: 2px dotted  black;
+}
+
+.main-right-bottom{
+    padding-top: 10px;
+    margin-bottom:5px;
+}
+
+.product-price{
+    padding-bottom: 18px;
+}
+
+.product-price h2{
+    display:inline;
+    margin-top:2rem;
+    color:blue;
+}
+
+.btn-addtocart{
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    background-color: #249e9d;
+    padding-top: 8px;
+    padding-bottom:8px;
+    padding-left: 30px;
+    padding-right:  30px;
+    color:#ddffff;
+    font-size: 30px;
+    border:0px solid;
+}
+
+
+.main-content{
+    margin-top:50px;
+    margin-left:30px;
+    display:flex;
+
+}
+
+.main-content-left{
+    border: 1px solid black;
+    display: inline-block;
+    padding-right:20px;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    margin-left: 20px;
+    margin-right:10px;
+
+}
+
+.main-content-left p{
+    text-align: left;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.main-content-right{
+    padding-left:100px;
+    padding-right: 100px;
+    margin-left: 10px;
+    border: 1px solid black;
+}
+
+.delete-button{
+    
 }
